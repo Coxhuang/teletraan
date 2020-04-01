@@ -25,5 +25,8 @@ class AppSerializerApp(MySerializerMixin):
             for fo in foo.split(" "):
                 if fo:
                     ret_list.append(fo)
+
+        if ret_list[-1] == "E":
+            ret_list.pop()
         print(ret_list)
         return ret_list

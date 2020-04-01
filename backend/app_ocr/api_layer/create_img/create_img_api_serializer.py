@@ -49,6 +49,9 @@ class CreateImgSerializer(AppSerializerApp):
         else: # 图片不为空
             base64_data = FileBase.image_to_base64(file)
             file_data = self.get_img_data_ocr(file)
+            data_all = models.OcrData.objects.all()
+            if data_all.count() >= 20: # 最大存20条数据
+                models.OcrData.objects.all().delete()
             article_obj = models.OcrData.objects.create(
                 ocr_img=base64_data,
                 ocr_key=str(file_data),
