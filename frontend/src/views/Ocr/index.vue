@@ -70,13 +70,13 @@
         },
         methods: {
             uploadSuccess (response, file, fileList) { // 文件上传成功时的钩子，返回字段为 response, file, fileList
-                this.$Message.success("上传成功");
+                this.$Message.success("识别成功");
                 console.log("response2:",response.results);
                 this.$store.commit("update_current_image_data",response.results);
                 this.image = this.$store.getters.get_current_image_detail;
             },
             uploadError(error, file, fileList){ // 文件上传失败时的钩子，返回字段为 error, file, fileList
-                this.$Message.error("上传失败");
+                this.$Message.error("节流限制,每分钟最多3次提交");
             },
             handleFormatError(file, fileList){ // 文件格式验证失败时的钩子，返回字段为 file, fileList
 
