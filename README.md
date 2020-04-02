@@ -9,11 +9,11 @@
 [https://github.com/Coxhuang/teletraan](https://github.com/Coxhuang/teletraan)
 
 
-1. Teletraan backend 地址
+2. Teletraan backend 地址
 
 [http://admin.minhung.me:20420/#/](http://admin.minhung.me:20420/#/)
 
-2. 演示
+3. 演示
 
 ![](https://raw.githubusercontent.com/Coxhuang/yosoro/master/20200402092234.png)
 
