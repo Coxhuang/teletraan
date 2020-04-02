@@ -49,7 +49,7 @@ pytesseract0.3.3
 - 提取图片信息
 
 **请求URL：** 
-- ` http://api.minhung.me:20421 `
+- ` http://api.minhung.me:20421/api/app_ocr/create-img/ `
   
 **请求方式：**
 - POST 
