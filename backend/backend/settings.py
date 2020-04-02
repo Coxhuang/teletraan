@@ -83,19 +83,19 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    },
     # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql', # mysql 引擎
-    #     'NAME': 'blog_db', # 数据库名
-    #     'USER': 'root', # 登录用户名
-    #     'PASSWORD': 'root', # 登录密码
-    #     'HOST': '127.0.0.1', # mysql地址
-    #     'PORT': '3306', # mysql 端口号
-    #     'CONN_MAX_AGE': 600, # 最大链接时间
-    # }
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # },
+    'default': {
+        'ENGINE': 'django.db.backends.mysql', # mysql 引擎
+        'NAME': 'teletraan_db', # 数据库名
+        'USER': 'root', # 登录用户名
+        'PASSWORD': 'root', # 登录密码
+        'HOST': '127.0.0.1', # mysql地址
+        'PORT': '3306', # mysql 端口号
+        'CONN_MAX_AGE': 600, # 最大链接时间
+    }
 }
 
 
