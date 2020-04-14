@@ -11,7 +11,7 @@
 
 2. Teletraan backend 地址
 
-[http://admin.minhung.me:20420/#/](http://admin.minhung.me:20420/#/)
+👉👉👉 [http://admin.minhung.me:20420/#/](http://admin.minhung.me:20420/#/)
 
 3. 演示
 
